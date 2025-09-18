@@ -77,5 +77,37 @@ checkpoint/
 *.h5
 *.keras
 models/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+ml_env/
+env/
+.venv/
+venv/
+
+# Model checkpoints and weights
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+
+# TensorBoard logs & experiment runs
+logs/
+runs/
+
+# Replay buffer or saved experience files
+*.npy
+*.npz
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
 runs/
 
